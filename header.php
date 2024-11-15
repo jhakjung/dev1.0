@@ -1,46 +1,31 @@
-<!doctype html>
-<html <?php language_attributes(); ?>>
-<head>
-	<meta charset="<?php bloginfo( 'charset' ); ?>">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<?php wp_head(); ?>
-</head>
-
-<body <?php body_class(); ?>>
-<?php wp_body_open(); ?>
-<div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'blocks-theme' ); ?></a>
-
-	<header id="masthead" class="site-header">
-		<div class="site-branding">
-			<?php
-			the_custom_logo();
-			if ( is_front_page() && is_home() ) :
-				?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<?php
-			else :
-				?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-				<?php
-			endif;
-			$blocks_theme_description = get_bloginfo( 'description', 'display' );
-			if ( $blocks_theme_description || is_customize_preview() ) :
-				?>
-				<p class="site-description"><?php echo $blocks_theme_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
-			<?php endif; ?>
-		</div><!-- .site-branding -->
-
-		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php echo '<a href="' . admin_url('post-new.php') . '">새 글 작성하기</a>'; ?></button>
-			<?php
-			wp_nav_menu(
-				array(
-					'theme_location' => 'menu-1',
-					'menu_id'        => 'primary-menu',
-				)
-			);
-			?>
-		</nav><!-- #site-navigation -->
-	</header><!-- #masthead -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <?php wp_head(); ?>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <h1 class="school-logo-text float-left">
+          <a href="#"><strong>Fictional</strong> University</a>
+        </h1>
+        <span class="js-search-trigger site-header__search-trigger"><i class="fa fa-search" aria-hidden="true"></i></span>
+        <i class="site-header__menu-trigger fa fa-bars" aria-hidden="true"></i>
+        <div class="site-header__menu group">
+          <nav class="main-navigation">
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Programs</a></li>
+              <li><a href="#">Events</a></li>
+              <li><a href="#">Campuses</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </nav>
+          <div class="site-header__util">
+            <a href="#" class="btn btn--small btn--orange float-left push-right">Login</a>
+            <a href="#" class="btn btn--small btn--dark-orange float-left">Sign Up</a>
+            <span class="search-trigger js-search-trigger"><i class="fa fa-search" aria-hidden="true"></i></span>
+          </div>
+        </div>
+      </div>
+    </header>
