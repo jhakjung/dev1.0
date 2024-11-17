@@ -1,109 +1,78 @@
-<?php get_header(); ?>
+<?php get_header();?>
 
-<div class="page-banner">
-  <div class="page-banner__bg-image" style="background-image: url(<?php echo get_theme_file_uri('/images/library-hero.jpg') ?>);"></div>
-  <div class="page-banner__content container t-center c-white">
-    <h1 class="headline headline--large">Welcome!</h1>
-    <h2 class="headline headline--medium">We think you&rsquo;ll like it here.</h2>
-    <h3 class="headline headline--small">Why don&rsquo;t you check out the <strong>major</strong> you&rsquo;re interested in?</h3>
-    <a href="#" class="btn btn--large btn--blue">Find Your Major</a>
-  </div>
-</div>
 
-<div class="full-width-split group">
-  <div class="full-width-split__one">
-    <div class="full-width-split__inner">
-      <h2 class="headline headline--small-plus t-center">Upcoming Events</h2>
 
-      <div class="event-summary">
-        <a class="event-summary__date t-center" href="#">
-          <span class="event-summary__month">Mar</span>
-          <span class="event-summary__day">25</span>
-        </a>
-        <div class="event-summary__content">
-          <h5 class="event-summary__title headline headline--tiny"><a href="#">Poetry in the 100</a></h5>
-          <p>Bring poems you&rsquo;ve wrote to the 100 building this Tuesday for an open mic and snacks. <a href="#" class="nu gray">Learn more</a></p>
-        </div>
-      </div>
-      <div class="event-summary">
-        <a class="event-summary__date t-center" href="#">
-          <span class="event-summary__month">Apr</span>
-          <span class="event-summary__day">02</span>
-        </a>
-        <div class="event-summary__content">
-          <h5 class="event-summary__title headline headline--tiny"><a href="#">Quad Picnic Party</a></h5>
-          <p>Live music, a taco truck and more can found in our third annual quad picnic day. <a href="#" class="nu gray">Learn more</a></p>
-        </div>
-      </div>
-
-      <p class="t-center no-margin"><a href="#" class="btn btn--blue">View All Events</a></p>
+    <!-- Row 2: Favorite Section -->
+    <div class="section-title">즐겨찾기</div>
+    <div class="d-flex justify-content-center mb-3 gap-2">
+        <button class="btn btn-primary">시험서</button>
+        <button class="btn btn-primary">견적서</button>
+        <button class="btn btn-primary">실적보고</button>
     </div>
-  </div>
-  <div class="full-width-split__two">
-    <div class="full-width-split__inner">
-      <h2 class="headline headline--small-plus t-center">From Our Blogs</h2>
 
-      <div class="event-summary">
-        <a class="event-summary__date event-summary__date--beige t-center" href="#">
-          <span class="event-summary__month">Jan</span>
-          <span class="event-summary__day">20</span>
-        </a>
-        <div class="event-summary__content">
-          <h5 class="event-summary__title headline headline--tiny"><a href="#">We Were Voted Best School</a></h5>
-          <p>For the 100th year in a row we are voted #1. <a href="#" class="nu gray">Read more</a></p>
-        </div>
-      </div>
-      <div class="event-summary">
-        <a class="event-summary__date event-summary__date--beige t-center" href="#">
-          <span class="event-summary__month">Feb</span>
-          <span class="event-summary__day">04</span>
-        </a>
-        <div class="event-summary__content">
-          <h5 class="event-summary__title headline headline--tiny"><a href="#">Professors in the National Spotlight</a></h5>
-          <p>Two of our professors have been in national news lately. <a href="#" class="nu gray">Read more</a></p>
-        </div>
-      </div>
+    <hr>
 
-      <p class="t-center no-margin"><a href="#" class="btn btn--yellow">View All Blog Posts</a></p>
+    <!-- Row 3: Issue Section -->
+    <div class="section-title">이슈</div>
+    <div class="d-flex flex-wrap gap-2 justify-content-center mb-3">
+        <button class="btn btn-issue">회의록</button>
+        <button class="btn btn-issue">실적보고</button>
+        <button class="btn btn-issue">LTE-R</button>
+        <button class="btn btn-issue">전파간섭</button>
+        <button class="btn btn-issue">#회의록</button>
+        <button class="btn btn-issue">#회의록</button>
+        <button class="btn btn-issue">#회의록</button>
+        <button class="btn btn-issue">#회의록</button>
+        <button class="btn btn-issue">#회의록</button>
+        <button class="btn btn-issue">보고자료</button>
     </div>
-  </div>
-</div>
 
-<div class="hero-slider">
-  <div data-glide-el="track" class="glide__track">
-    <div class="glide__slides">
-      <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('/images/bus.jpg') ?>);">
-        <div class="hero-slider__interior container">
-          <div class="hero-slider__overlay">
-            <h2 class="headline headline--medium t-center">Free Transportation</h2>
-            <p class="t-center">All students have free unlimited bus fare.</p>
-            <p class="t-center no-margin"><a href="#" class="btn btn--blue">Learn more</a></p>
-          </div>
+    <hr>
+
+    <!-- Row 4: 성과물 Section with Nested Table -->
+    <div class="section-title">성과물</div>
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+        <!-- Box 1 -->
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-header text-center success-bg">
+                    <a href="#" class="text-white">01 계약 단계</a>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><a href="#">제안요청서</a></li>
+                    <li class="list-group-item"><a href="#">제안서</a></li>
+                    <li class="list-group-item"><a href="#">계약서</a></li>
+                    <li class="list-group-item"><a href="#">선정통보</a></li>
+                </ul>
+            </div>
         </div>
-      </div>
-      <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('/images/apples.jpg') ?>);">
-        <div class="hero-slider__interior container">
-          <div class="hero-slider__overlay">
-            <h2 class="headline headline--medium t-center">An Apple a Day</h2>
-            <p class="t-center">Our dentistry program recommends eating apples.</p>
-            <p class="t-center no-margin"><a href="#" class="btn btn--blue">Learn more</a></p>
-          </div>
+
+        <!-- Box 2 -->
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-header text-center success-bg">
+                    <a href="#" class="text-white">02 착수 단계</a>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><a href="#">착수제</a></li>
+                    <li class="list-group-item"><a href="#">착수회의회의록</a></li>
+                    <li class="list-group-item"><a href="#">품질경영계획서</a></li>
+                    <li class="list-group-item"><a href="#">공정일정계획서</a></li>
+                    <li class="list-group-item"><a href="#">교육계획서</a></li>
+                    <li class="list-group-item"><a href="#">계약자정보제출</a></li>
+                </ul>
+            </div>
         </div>
-      </div>
-      <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('/images/bread.jpg') ?>);">
-        <div class="hero-slider__interior container">
-          <div class="hero-slider__overlay">
-            <h2 class="headline headline--medium t-center">Free Food</h2>
-            <p class="t-center">Fictional University offers lunch plans for those in need.</p>
-            <p class="t-center no-margin"><a href="#" class="btn btn--blue">Learn more</a></p>
-          </div>
-        </div>
-      </div>
+
+        <!-- Additional Boxes (Box 3 to Box 12) -->
+        <!-- Repeat similar structure for each additional box, changing title and items accordingly -->
     </div>
-    <div class="slider__bullets glide__bullets" data-glide-el="controls[nav]"></div>
-  </div>
-</div>
 
-<?php get_footer();
+    <hr>
 
-?>
+
+
+
+
+
+<?php get_footer();?>
