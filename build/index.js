@@ -1,24 +1,174 @@
 /******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
-/***/ (() => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: C:\\xampp\\htdocs\\dev\\wp-content\\themes\\dev1.0\\src\\index.js: Unexpected token (1:1)\n\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 1 |\u001b[39m \u001b[33m<<\u001b[39m\u001b[33m<<\u001b[39m\u001b[33m<<\u001b[39m\u001b[33m<\u001b[39m \u001b[33mHEAD\u001b[39m\n \u001b[90m   |\u001b[39m  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 2 |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"../css/style.scss\"\u001b[39m\n \u001b[90m 3 |\u001b[39m\n \u001b[90m 4 |\u001b[39m \u001b[90m// Our modules / classes\u001b[39m\u001b[0m\n    at constructor (C:\\xampp\\htdocs\\dev\\wp-content\\themes\\dev1.0\\node_modules\\@babel\\parser\\lib\\index.js:359:19)\n    at JSXParserMixin.raise (C:\\xampp\\htdocs\\dev\\wp-content\\themes\\dev1.0\\node_modules\\@babel\\parser\\lib\\index.js:3266:19)\n    at JSXParserMixin.unexpected (C:\\xampp\\htdocs\\dev\\wp-content\\themes\\dev1.0\\node_modules\\@babel\\parser\\lib\\index.js:3286:16)\n    at JSXParserMixin.jsxParseIdentifier (C:\\xampp\\htdocs\\dev\\wp-content\\themes\\dev1.0\\node_modules\\@babel\\parser\\lib\\index.js:6623:12)\n    at JSXParserMixin.jsxParseNamespacedName (C:\\xampp\\htdocs\\dev\\wp-content\\themes\\dev1.0\\node_modules\\@babel\\parser\\lib\\index.js:6630:23)\n    at JSXParserMixin.jsxParseElementName (C:\\xampp\\htdocs\\dev\\wp-content\\themes\\dev1.0\\node_modules\\@babel\\parser\\lib\\index.js:6639:21)\n    at JSXParserMixin.jsxParseOpeningElementAt (C:\\xampp\\htdocs\\dev\\wp-content\\themes\\dev1.0\\node_modules\\@babel\\parser\\lib\\index.js:6715:22)\n    at JSXParserMixin.jsxParseElementAt (C:\\xampp\\htdocs\\dev\\wp-content\\themes\\dev1.0\\node_modules\\@babel\\parser\\lib\\index.js:6740:33)\n    at JSXParserMixin.jsxParseElement (C:\\xampp\\htdocs\\dev\\wp-content\\themes\\dev1.0\\node_modules\\@babel\\parser\\lib\\index.js:6803:17)\n    at JSXParserMixin.parseExprAtom (C:\\xampp\\htdocs\\dev\\wp-content\\themes\\dev1.0\\node_modules\\@babel\\parser\\lib\\index.js:6813:19)\n    at JSXParserMixin.parseExprSubscripts (C:\\xampp\\htdocs\\dev\\wp-content\\themes\\dev1.0\\node_modules\\@babel\\parser\\lib\\index.js:10615:23)\n    at JSXParserMixin.parseUpdate (C:\\xampp\\htdocs\\dev\\wp-content\\themes\\dev1.0\\node_modules\\@babel\\parser\\lib\\index.js:10600:21)\n    at JSXParserMixin.parseMaybeUnary (C:\\xampp\\htdocs\\dev\\wp-content\\themes\\dev1.0\\node_modules\\@babel\\parser\\lib\\index.js:10580:23)\n    at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\\xampp\\htdocs\\dev\\wp-content\\themes\\dev1.0\\node_modules\\@babel\\parser\\lib\\index.js:10434:61)\n    at JSXParserMixin.parseExprOps (C:\\xampp\\htdocs\\dev\\wp-content\\themes\\dev1.0\\node_modules\\@babel\\parser\\lib\\index.js:10439:23)\n    at JSXParserMixin.parseMaybeConditional (C:\\xampp\\htdocs\\dev\\wp-content\\themes\\dev1.0\\node_modules\\@babel\\parser\\lib\\index.js:10416:23)\n    at JSXParserMixin.parseMaybeAssign (C:\\xampp\\htdocs\\dev\\wp-content\\themes\\dev1.0\\node_modules\\@babel\\parser\\lib\\index.js:10379:21)\n    at JSXParserMixin.parseExpressionBase (C:\\xampp\\htdocs\\dev\\wp-content\\themes\\dev1.0\\node_modules\\@babel\\parser\\lib\\index.js:10333:23)\n    at C:\\xampp\\htdocs\\dev\\wp-content\\themes\\dev1.0\\node_modules\\@babel\\parser\\lib\\index.js:10329:39\n    at JSXParserMixin.allowInAnd (C:\\xampp\\htdocs\\dev\\wp-content\\themes\\dev1.0\\node_modules\\@babel\\parser\\lib\\index.js:11946:16)\n    at JSXParserMixin.parseExpression (C:\\xampp\\htdocs\\dev\\wp-content\\themes\\dev1.0\\node_modules\\@babel\\parser\\lib\\index.js:10329:17)\n    at JSXParserMixin.parseStatementContent (C:\\xampp\\htdocs\\dev\\wp-content\\themes\\dev1.0\\node_modules\\@babel\\parser\\lib\\index.js:12390:23)\n    at JSXParserMixin.parseStatementLike (C:\\xampp\\htdocs\\dev\\wp-content\\themes\\dev1.0\\node_modules\\@babel\\parser\\lib\\index.js:12257:17)\n    at JSXParserMixin.parseModuleItem (C:\\xampp\\htdocs\\dev\\wp-content\\themes\\dev1.0\\node_modules\\@babel\\parser\\lib\\index.js:12234:17)\n    at JSXParserMixin.parseBlockOrModuleBlockBody (C:\\xampp\\htdocs\\dev\\wp-content\\themes\\dev1.0\\node_modules\\@babel\\parser\\lib\\index.js:12810:36)\n    at JSXParserMixin.parseBlockBody (C:\\xampp\\htdocs\\dev\\wp-content\\themes\\dev1.0\\node_modules\\@babel\\parser\\lib\\index.js:12803:10)\n    at JSXParserMixin.parseProgram (C:\\xampp\\htdocs\\dev\\wp-content\\themes\\dev1.0\\node_modules\\@babel\\parser\\lib\\index.js:12131:10)\n    at JSXParserMixin.parseTopLevel (C:\\xampp\\htdocs\\dev\\wp-content\\themes\\dev1.0\\node_modules\\@babel\\parser\\lib\\index.js:12121:25)\n    at JSXParserMixin.parse (C:\\xampp\\htdocs\\dev\\wp-content\\themes\\dev1.0\\node_modules\\@babel\\parser\\lib\\index.js:13929:10)\n    at parse (C:\\xampp\\htdocs\\dev\\wp-content\\themes\\dev1.0\\node_modules\\@babel\\parser\\lib\\index.js:13963:38)\n    at parser (C:\\xampp\\htdocs\\dev\\wp-content\\themes\\dev1.0\\node_modules\\@babel\\core\\lib\\parser\\index.js:41:34)\n    at parser.next (<anonymous>)\n    at normalizeFile (C:\\xampp\\htdocs\\dev\\wp-content\\themes\\dev1.0\\node_modules\\@babel\\core\\lib\\transformation\\normalize-file.js:64:37)\n    at normalizeFile.next (<anonymous>)\n    at run (C:\\xampp\\htdocs\\dev\\wp-content\\themes\\dev1.0\\node_modules\\@babel\\core\\lib\\transformation\\index.js:21:50)\n    at run.next (<anonymous>)\n    at transform (C:\\xampp\\htdocs\\dev\\wp-content\\themes\\dev1.0\\node_modules\\@babel\\core\\lib\\transform.js:22:33)\n    at transform.next (<anonymous>)\n    at step (C:\\xampp\\htdocs\\dev\\wp-content\\themes\\dev1.0\\node_modules\\gensync\\index.js:261:32)\n    at C:\\xampp\\htdocs\\dev\\wp-content\\themes\\dev1.0\\node_modules\\gensync\\index.js:273:13\n    at async.call.result.err.err (C:\\xampp\\htdocs\\dev\\wp-content\\themes\\dev1.0\\node_modules\\gensync\\index.js:223:11)\n    at C:\\xampp\\htdocs\\dev\\wp-content\\themes\\dev1.0\\node_modules\\gensync\\index.js:189:28\n    at C:\\xampp\\htdocs\\dev\\wp-content\\themes\\dev1.0\\node_modules\\@babel\\core\\lib\\gensync-utils\\async.js:67:7\n    at C:\\xampp\\htdocs\\dev\\wp-content\\themes\\dev1.0\\node_modules\\gensync\\index.js:113:33\n    at step (C:\\xampp\\htdocs\\dev\\wp-content\\themes\\dev1.0\\node_modules\\gensync\\index.js:287:14)\n    at C:\\xampp\\htdocs\\dev\\wp-content\\themes\\dev1.0\\node_modules\\gensync\\index.js:273:13\n    at async.call.result.err.err (C:\\xampp\\htdocs\\dev\\wp-content\\themes\\dev1.0\\node_modules\\gensync\\index.js:223:11)");
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _css_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../css/style.scss */ "./css/style.scss");
+
+
+/***/ }),
+
+/***/ "./css/style.scss":
+/*!************************!*\
+  !*** ./css/style.scss ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
 
 /***/ })
 
 /******/ 	});
 /************************************************************************/
+/******/ 	// The module cache
+/******/ 	var __webpack_module_cache__ = {};
+/******/ 	
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/ 		// Check if module is in cache
+/******/ 		var cachedModule = __webpack_module_cache__[moduleId];
+/******/ 		if (cachedModule !== undefined) {
+/******/ 			return cachedModule.exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = __webpack_module_cache__[moduleId] = {
+/******/ 			// no module.id needed
+/******/ 			// no module.loaded needed
+/******/ 			exports: {}
+/******/ 		};
+/******/ 	
+/******/ 		// Execute the module function
+/******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
+/******/ 	
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/ 	
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = __webpack_modules__;
+/******/ 	
+/************************************************************************/
+/******/ 	/* webpack/runtime/chunk loaded */
+/******/ 	(() => {
+/******/ 		var deferred = [];
+/******/ 		__webpack_require__.O = (result, chunkIds, fn, priority) => {
+/******/ 			if(chunkIds) {
+/******/ 				priority = priority || 0;
+/******/ 				for(var i = deferred.length; i > 0 && deferred[i - 1][2] > priority; i--) deferred[i] = deferred[i - 1];
+/******/ 				deferred[i] = [chunkIds, fn, priority];
+/******/ 				return;
+/******/ 			}
+/******/ 			var notFulfilled = Infinity;
+/******/ 			for (var i = 0; i < deferred.length; i++) {
+/******/ 				var chunkIds = deferred[i][0];
+/******/ 				var fn = deferred[i][1];
+/******/ 				var priority = deferred[i][2];
+/******/ 				var fulfilled = true;
+/******/ 				for (var j = 0; j < chunkIds.length; j++) {
+/******/ 					if ((priority & 1 === 0 || notFulfilled >= priority) && Object.keys(__webpack_require__.O).every((key) => (__webpack_require__.O[key](chunkIds[j])))) {
+/******/ 						chunkIds.splice(j--, 1);
+/******/ 					} else {
+/******/ 						fulfilled = false;
+/******/ 						if(priority < notFulfilled) notFulfilled = priority;
+/******/ 					}
+/******/ 				}
+/******/ 				if(fulfilled) {
+/******/ 					deferred.splice(i--, 1)
+/******/ 					var r = fn();
+/******/ 					if (r !== undefined) result = r;
+/******/ 				}
+/******/ 			}
+/******/ 			return result;
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
+/******/ 	(() => {
+/******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/make namespace object */
+/******/ 	(() => {
+/******/ 		// define __esModule on exports
+/******/ 		__webpack_require__.r = (exports) => {
+/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 			}
+/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/jsonp chunk loading */
+/******/ 	(() => {
+/******/ 		// no baseURI
+/******/ 		
+/******/ 		// object to store loaded and loading chunks
+/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
+/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
+/******/ 		var installedChunks = {
+/******/ 			"index": 0,
+/******/ 			"./style-index": 0
+/******/ 		};
+/******/ 		
+/******/ 		// no chunk on demand loading
+/******/ 		
+/******/ 		// no prefetching
+/******/ 		
+/******/ 		// no preloaded
+/******/ 		
+/******/ 		// no HMR
+/******/ 		
+/******/ 		// no HMR manifest
+/******/ 		
+/******/ 		__webpack_require__.O.j = (chunkId) => (installedChunks[chunkId] === 0);
+/******/ 		
+/******/ 		// install a JSONP callback for chunk loading
+/******/ 		var webpackJsonpCallback = (parentChunkLoadingFunction, data) => {
+/******/ 			var chunkIds = data[0];
+/******/ 			var moreModules = data[1];
+/******/ 			var runtime = data[2];
+/******/ 			// add "moreModules" to the modules object,
+/******/ 			// then flag all "chunkIds" as loaded and fire callback
+/******/ 			var moduleId, chunkId, i = 0;
+/******/ 			if(chunkIds.some((id) => (installedChunks[id] !== 0))) {
+/******/ 				for(moduleId in moreModules) {
+/******/ 					if(__webpack_require__.o(moreModules, moduleId)) {
+/******/ 						__webpack_require__.m[moduleId] = moreModules[moduleId];
+/******/ 					}
+/******/ 				}
+/******/ 				if(runtime) var result = runtime(__webpack_require__);
+/******/ 			}
+/******/ 			if(parentChunkLoadingFunction) parentChunkLoadingFunction(data);
+/******/ 			for(;i < chunkIds.length; i++) {
+/******/ 				chunkId = chunkIds[i];
+/******/ 				if(__webpack_require__.o(installedChunks, chunkId) && installedChunks[chunkId]) {
+/******/ 					installedChunks[chunkId][0]();
+/******/ 				}
+/******/ 				installedChunks[chunkId] = 0;
+/******/ 			}
+/******/ 			return __webpack_require__.O(result);
+/******/ 		}
+/******/ 		
+/******/ 		var chunkLoadingGlobal = self["webpackChunkfictional_university_theme"] = self["webpackChunkfictional_university_theme"] || [];
+/******/ 		chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
+/******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
+/******/ 	})();
+/******/ 	
+/************************************************************************/
 /******/ 	
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
-/******/ 	// This entry module doesn't tell about it's top-level declarations so it can't be inlined
-/******/ 	var __webpack_exports__ = {};
-/******/ 	__webpack_modules__["./src/index.js"]();
+/******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["./style-index"], () => (__webpack_require__("./src/index.js")))
+/******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
 ;

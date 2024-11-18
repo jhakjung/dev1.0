@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="<?php bloginfo('charset');?>">
-  <meta name="viewport" content="width=device-width, initial-scale=1>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex, nofollow">
   <title>
       <?php wp_title(' | ', 'echo', 'right');?>
@@ -25,7 +25,10 @@
             <input type="text" class="form-control" placeholder="Search...">
         </div>
         <div class="col-3 text-end">
-            <button class="btn btn-custom"><a href="<?php echo admin_url('post-new.php'); ?>"></a>작성</button>
+            <button class="btn btn-custom">
+                <a href="<?php echo admin_url('post-new.php'); ?>">작성</a>
+            </button>
+
         </div>
     </div>
 
