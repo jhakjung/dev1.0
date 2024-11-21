@@ -74,8 +74,8 @@ function hide_category_options_for_subscribers()
     $user = wp_get_current_user();
     if (in_array('subscriber', (array) $user->roles)) {
         echo '<style>
-            #wp-admin-bar-comments,
-            #wp-admin-bar-new-content,
+            li#wp-admin-bar-comments { display: none !important; },
+            li#wp-admin-bar-new-content { display: none !important; },
             #wp-admin-bar-top-secondary,
             span.order-higher-indicator,
             span.order-lower-indicator,
@@ -96,7 +96,7 @@ function hide_category_options_for_subscribers()
             #category-add-toggle, /* 새 카테고리 추가 */
             .categorydiv #category-tabs>li,
             #tagsdiv-post_tag .tagcloud-link,
-            .tag-checkbox-list>p
+            /*.tag-checkbox-list>p */
             { display: none !important; }
         </style>';
     }
@@ -183,28 +183,6 @@ function customize_tag_box_help_text_for_subscribers()
 }
 add_action('admin_head-post.php', 'customize_tag_box_help_text_for_subscribers');
 add_action('admin_head-post-new.php', 'customize_tag_box_help_text_for_subscribers');
-
-function ajax_add_tag_and_refresh_list()
-{
-    if (isset($_POST['tag_name']) && !empty($_POST['tag_name'])) {
-        $tag_name = sanitize_text_field($_POST['tag_name']);
-        $tag_id = wp_insert_term($tag_name, 'post_tag');
-
-        if (!is_wp_error($tag_id)) {
-            $tags = get_terms(array(
-                'taxonomy' => 'post_tag',
-                'hide_empty' => false,
-            ));
-
-            // 태그 리스트 반환
-            echo json_encode($tags);
-        } else {
-            echo json_encode(array('error' => $tag_id->get_error_message()));
-        }
-    }
-    wp_die();
-}
-add_action('wp_ajax_add_tag_and_refresh', 'ajax_add_tag_and_refresh_list');
 
 // 미디어 추가 --> 파일 추가
 function customize_editor_for_subscribers()
